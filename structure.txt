@@ -1,0 +1,44 @@
+🧠 Why This Is Important
+
+Without Multi-Tenancy:
+Customer A → Separate App
+Customer B → Separate App
+Customer C → Separate App
+
+High infrastructure cost and difficult maintenance.
+With Multi-Tenancy:
+
+              SaaS Application
+                     │
+     ┌───────────────┼───────────────┐
+     ▼               ▼               ▼
+ Tenant A       Tenant B       Tenant C
+   Data            Data            Data
+
+Benefits:
+✅ Shared infrastructure
+✅ Lower deployment cost
+✅ Customer data isolation
+✅ Easier maintenance
+✅ Scalable SaaS architecture
+
+Used By :
+Salesforce
+Shopify
+Zoho
+Microsoft 365
+Slack
+
+🛠 Tech Stack
+Python
+Flask
+SQLAlchemy
+SQLite
+
+📂 Project Structure
+multi-tenant-saas-api/
+│
+├── app.py
+├── models.py
+├── requirements.txt
+└── README.md
